@@ -55,12 +55,7 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all",
-              "replaceEnv": {
-                "baseURL": "${BASE_URL_PROD}",
-                "stripePublicKey": "${STRIPE_PUBLIC_KEY}",
-                "cryptoServiceKey": "${CRYPTO_KEY}"
-              }
+              "outputHashing": "all"
             },
             "development": {
               "optimization": false,
