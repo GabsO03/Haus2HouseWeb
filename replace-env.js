@@ -10,4 +10,4 @@ export const environment = {
 };
 `;
 
-fs.writeFileSync('src/environments/environment.prod.ts', envConfig);
+fs.writeFileSync('src/app/environments/environment.prod.ts', envConfig);
